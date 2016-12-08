@@ -1,0 +1,7 @@
+Link to example resume
+http://wrapbootstrap.com/preview/WB0265951
+TimeLine
+http://bootsnipp.com/snippets/featured/zigzag-timeline-layout
+
+links bootstrap CDN
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">

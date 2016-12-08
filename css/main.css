@@ -1,0 +1,56 @@
+
+body{
+  background-image: url("http://previews.123rf.com/images/ferli/ferli1108/ferli110800227/10313943-abstract-grunge-wood-texture-background-Stock-Photo.jpg");
+}
+.jumbotron{
+  background-color: white;
+}
+#img-profile{
+  border-radius: 10px 10px 10px 10px;
+  width: 170px;
+  height: 170px;
+
+}
+#hola-text{
+  text-align: center;
+  font-family: 'Aref Ruqaa', serif;
+}
+#text-profile{
+  text-align: center;
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 150%;
+}
+#line-horizontal{
+  border-top: 3px double #8c8b8b;
+}
+.text-color{
+  color: #f0563d;
+}
+.icons{
+  color: rgba(0, 0, 0, 0.2);
+}
+.second-text{
+  color: silver;
+}
+.progress-bar{
+  background-color: #f0563d;
+  text-align: left;
+  font-size: 110%;
+}
+.idioms-li{
+  padding: 3px;
+  font-size: 110%;
+}
+.ocuped{
+  color: #f0563d;
+}
+.stars{
+  text-align: right;
+  display: inline;
+}
+.idioms{
+  display: inline;
+}
+.fa-thumbs-up{
+  color: white;
+}
