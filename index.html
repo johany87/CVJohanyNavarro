@@ -4,6 +4,11 @@
   <!--FONTS-->
   <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
   <!-- Latest compiled and minified CSS -->
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <link rel="stylesheet" href="css\animate.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -31,9 +36,9 @@
       <div class="jumbotron col-md-12">
         <div class="container col-md-8">
           <h2 id="hola-text">
-            <strong>HOLA!</strong>
+            <strong class="wow fadeIn" data-wow-delay="0,5s">HOLA!</strong>
           </h2>
-          <h3 id="text-profile">
+          <h3 id="text-profile" class="wow fadeIn" data-wow-delay="1s">
             <strong>Mi nombre es <br>
               <span class="text-color">
                 Johany Navarro <br>
@@ -42,14 +47,14 @@
             </strong>
           </h3>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 wow fadeIn" data-wow-delay="2s">
           <img id="img-profile" src="images/foto4.png" alt="fotoperfil"/>
         </div>
       </div> <!-- jumbotron-->
       <!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
 
       <!--DIV LEFT-->
-      <div class="cotainer col-md-7" id="div-left">
+      <div class="cotainer col-md-7 wow fadeIn" data-wow-delay="2s" id="div-left">
         <h4 class="text-color"> <strong>//SOBRE MI</strong></h4>
         <p class="text-justify">
           <br>
@@ -228,7 +233,7 @@
       </div> <!--DIV LEFT-->
       <!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
       <!--DIV RIGHT-->
-      <div class="contaier col-md-5" id="div-right">
+      <div class="contaier col-md-5 wow fadeIn" data-wow-delay="2s" id="div-right">
         <!--CONTACT-->
         <h4 class="text-color"><strong>//CONTACTO</strong></h4>
         <table cellpadding="1">
