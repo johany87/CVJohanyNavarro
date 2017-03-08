@@ -8,7 +8,7 @@
   }
 
   function shadowin(div) {
-    div.style = "box-shadow: 10px 0px 30px 0px rgba(130, 130, 130, 0.75);";
+    div.style = "box-shadow: 0px 0px 30px 0px rgba(130, 130, 130, 0.75);";
   }
 
   function shadowout(div) {

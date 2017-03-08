@@ -4,16 +4,13 @@
   <!--FONTS-->
   <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
   <!-- Latest compiled and minified CSS -->
-  <script src="js/wow.min.js"></script>
-  <script>
-    new WOW().init();
-  </script>
-  <link rel="stylesheet" href="css\animate.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- ICONS-->
   <script src="https://use.fontawesome.com/4b14611884.js"></script>
   <!--PERSONAL CSS AND JS FILES-->
@@ -27,18 +24,17 @@
   <title>CV Johany Navarro</title>
 </head>
 <body>
-  <br> <br> <br> <br>
   <!-- central panel -->
-  <div class="col-md-10 panel col-md-offset-1">
+  <div class="col-md-10 panel col-md-offset-1" id="contenedor">
     <div class="panel-body">
       <!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
       <!-- Profile div  -->
       <div class="jumbotron col-md-12">
         <div class="container col-md-8">
           <h2 id="hola-text">
-            <strong class="wow fadeIn" data-wow-delay="0,5s">HOLA!</strong>
+            <strong >HOLA!</strong>
           </h2>
-          <h3 id="text-profile" class="wow fadeIn" data-wow-delay="1s">
+          <h3 id="text-profile">
             <strong>Mi nombre es <br>
               <span class="text-color">
                 Johany Navarro <br>
@@ -47,14 +43,14 @@
             </strong>
           </h3>
         </div>
-        <div class="col-md-3 wow fadeIn" data-wow-delay="2s">
+        <div class="col-md-3">
           <img id="img-profile" src="images/foto4.png" alt="fotoperfil"/>
         </div>
       </div> <!-- jumbotron-->
       <!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
 
       <!--DIV LEFT-->
-      <div class="cotainer col-md-7 wow fadeIn" data-wow-delay="2s" id="div-left">
+      <div class="cotainer col-md-7" id="div-left">
         <h4 class="text-color"> <strong>//SOBRE MI</strong></h4>
         <p class="text-justify">
           <br>
@@ -72,13 +68,13 @@
             <div class="panel-heading" role="tab" id="headingOne">
               <h4 class="panel-title">
                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  JNA Ingeniería Informática, Bogotá </span>
+                  <span>JNA Ingeniería Informática, Bogotá </span>
                 </a>
               </h4>
             </div> <!--first button-->
             <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
               <div class="panel-body">
-                Asesor Tecnológico Independiente. <br>
+                <strong>Asesor Tecnológico Independiente.</strong><br>
                 Liderar, planear, organizar proyectos (páginas web, licenciamiento, mantenimientos preventivos y correctivos,
                 Wireless, cableado estructurado, servidores AD y File Server) apoyándonos en un grupo de técnico o ingenieros
                 expertos en sistemas que busca solucionar las necesidades tecnológicas de las organizaciones.
@@ -97,7 +93,7 @@
             </div>
             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
               <div class="panel-body">
-                Ingeniero de Soporte, Contratista Ministerio de Salud <br>
+                <strong>Ingeniero de Soporte, Contratista Ministerio de Salud </strong><br>
                 Liderar un equipo Help Desk para la migración del AD, administrar el servidor AD, el Exchange y el
                 File Server del Ministerio y como suplemento brindar soporte nivel 2 y nivel 3
               </div>
@@ -115,7 +111,7 @@
             </div>
             <div id="collapseThird" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThird">
               <div class="panel-body">
-                Técnico de Soporte IT, Contratista en Organización Terpel <br>
+                <strong>Técnico de Soporte IT, Contratista en Organización Terpel </strong><br>
                 Mantenimiento preventivo y predictivo para garantizar el funcionamiento del SW y HW de los equipos, aplicando y
                 utilizando herramientas ofimáticas y colaborativas, al igual que asegurar la continuidad de servicios tecnológicos
                 para la alta gerencia y Vicepresidencia de la organización.
@@ -134,7 +130,7 @@
             </div>
             <div id="collapseFourth" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFourth">
               <div class="panel-body">
-                Técnico de Soporte, Contratista <br>
+                <strong>Técnico de Soporte, Contratista</strong><br>
                 Ser parte del equipo de renovación tecnológica y asistir en la implementación del Programa de Seguridad de la
                 Información configurando los clientes finales según los requerimientos de la compañía además de la administración
                 del AD y el File Server, mantenimiento, actualización, instalación y configuración de computadores, mantenimiento
@@ -155,7 +151,7 @@
             </div>
             <div id="collapseFifth" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFifth">
               <div class="panel-body">
-                Técnico de Soporte, Contratista en Ministerio de Educación <br>
+                <strong>Técnico de Soporte, Contratista en Ministerio de Educación </strong><br>
                 Realizar mantenimiento correctivo y preventivo a equipos de diferentes colegios a nivel nacional y capacitar
                 sobre mantenimiento preventivo y correctivo de computadores a profesores y alumnos en cada colegio.
               </div>
@@ -233,7 +229,7 @@
       </div> <!--DIV LEFT-->
       <!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
       <!--DIV RIGHT-->
-      <div class="contaier col-md-5 wow fadeIn" data-wow-delay="2s" id="div-right">
+      <div class="contaier col-md-5" id="div-right">
         <!--CONTACT-->
         <h4 class="text-color"><strong>//CONTACTO</strong></h4>
         <table cellpadding="1">
@@ -330,7 +326,7 @@
             </li>
           </ul> <!--UL RIGHT-->
           <br>
-          <div class="col-xs-12">
+          <div class="col-md-12">
             <h4 class="text-color"><strong>//HOBBIES</strong></h4>
           </div>
           <br>

@@ -2,6 +2,10 @@
 body{
   background-image: url("http://previews.123rf.com/images/ferli/ferli1108/ferli110800227/10313943-abstract-grunge-wood-texture-background-Stock-Photo.jpg");
 }
+#contenedor{
+  width: 82%;
+  top: 4em;
+}
 .jumbotron{
   background-color: white;
 }
@@ -53,4 +57,23 @@ body{
 }
 .fa-thumbs-up{
   color: white;
+}
+@media screen and (max-width:1000px) {
+  #img-profile{
+    width: 30%;
+    margin-left: 35%;
+  }
+  .timeline-panel{
+    width: 80% !important;
+    left: -13%;
+  }
+  #contenedor{
+    left: 10%;
+  }
+  table{
+    width: 40%;
+  }
+  #skills{
+    width: 60%;
+  }
 }
