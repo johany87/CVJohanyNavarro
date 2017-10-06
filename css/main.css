@@ -1,4 +1,12 @@
-
+.language{
+  top: 25px;
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  background-color: white !important;
+  font-family: 'Aref Ruqaa', serif;
+  font-weight: bold;
+}
 body{
   background-image: url("http://previews.123rf.com/images/ferli/ferli1108/ferli110800227/10313943-abstract-grunge-wood-texture-background-Stock-Photo.jpg");
 }
@@ -58,22 +66,44 @@ body{
 .fa-thumbs-up{
   color: white;
 }
-@media screen and (max-width:1000px) {
-  #img-profile{
-    width: 30%;
-    margin-left: 35%;
-  }
+@media screen and (max-width:1100px) {
   .timeline-panel{
-    width: 80% !important;
+    width: 75% !important;
     left: -13%;
-  }
-  #contenedor{
-    left: 10%;
   }
   table{
     width: 40%;
   }
-  #skills{
+}
+@media screen and (max-width:1000px) {
+  body{
+    margin-left: 10%;
+  }
+  .timeline-panel{
     width: 60%;
+    left: -18%;
+  }
+  #hobbies{
+    left: -15px !important;
+  }
+  .hobby{
+    display: inline;
+  }
+  #img-profile{
+    width: 30%;
+    margin-left: 35%;
+  }
+  .hobby{
+    width: 50%;
+  }
+}
+@media screen and (max-width:800px) {
+  .timeline-panel{
+    width: 50% !important;
+    left: -40%;
+  }
+  #img-profile{
+    width: 40%;
+    margin-left: 30%;
   }
 }
